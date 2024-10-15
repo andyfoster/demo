@@ -36,6 +36,9 @@ composer create-project symfony/symfony-demo my_project
 git clone https://github.com/symfony/demo.git my_project
 cd my_project/
 composer install
+
+# Enter a non-empty value for the APP_SECRET here
+nano .env
 ```
 
 **Option 3.** Click the following button to deploy this project on Platform.sh,
